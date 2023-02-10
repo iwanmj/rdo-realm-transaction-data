@@ -91,6 +91,12 @@ return [
             'prefix_indexes' => true,
         ],
 
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn' => 'mongodb://localhost:27017',
+            'database' => 'rdo-dev',
+        ],
+
     ],
 
     /*
