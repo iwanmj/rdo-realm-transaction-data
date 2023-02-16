@@ -13,3 +13,4 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/transaction', 'TransactionController@index');
+Route::get('/detail/{uuid_store}', 'TransactionController@detail');
